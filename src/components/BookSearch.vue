@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import axios from "axios";
 import DisplayResults from "./DisplayResults.vue";
 import mockdata from "../../json/data.json";
 
@@ -32,9 +33,7 @@ export default {
   data() {
     return {
       // have data returned to empty object
-      searchResults: {
-        items: []
-      },
+      searchResults: mockdata,
       queryValue: "",
       //boolean to change view
       resultsReturned: false
@@ -42,7 +41,6 @@ export default {
   },
   methods: {
     fakeData: function() {
-      this.searchResults = mockdata;
       return true;
     },
     submitRequest: function() {
