@@ -40,11 +40,11 @@ export default {
     };
   },
   methods: {
-    fakeData: function() {
+    getQuery: function() {
       return true;
     },
     submitRequest: function() {
-      if (this.fakeData) {
+      if (this.getQuery) {
         this.resultsReturned = true;
       }
     }
