@@ -4,7 +4,7 @@
       <a href="#">
         <div class="image-section">
           <!--h1>{{ book.volumeInfo.imageLinks.thumbnail }}</h1-->
-          <img :src="book.volumeInfo.imageLinks.thumbnail" :alt="book.volumeInfo.title">
+          <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">
         </div>
         <div class="into-section">
           <h3>{{ book.volumeInfo.title }}</h3>
