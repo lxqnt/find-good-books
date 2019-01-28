@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="(book, index) in itemList" :key="book.id" class="Book-Section">
-      <router-link :to="{ name: 'book', params: {id: book.volumeInfo.title } }">
+      <router-link :to="{ name: 'book', params: {id: book.volumeInfo.title, itemInfo: book.volumeInfo } }">
         <div class="image-section">
           <!--h1>{{ book.volumeInfo.imageLinks.thumbnail }}</h1-->
           <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">

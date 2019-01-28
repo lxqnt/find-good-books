@@ -1,5 +1,5 @@
 <template>
-  <h1>book title</h1>
+  <h1>{{ itemInfo.title }}</h1>
 </template>
 
 <script>
