@@ -1,7 +1,14 @@
-<template></template>
+<template>
+  <h1>book title</h1>
+</template>
 
 <script>
-export default {};
+export default {
+  name: "BookDetail",
+  props: {
+    itemInfo: {}
+  }
+};
 </script>
 
 <style>
