@@ -1,21 +1,22 @@
+<!-- Landing Page for site and space for search results--> 
 <template>
   <div>
-    <div class="section-title">
-      <div class="red-box"/>
-      <div class="title">
-        <h1>The Good Booklist</h1>
-        <h4>Find books on any subject!</h4>
+    <div>
+      <booklist-header
+        :class="{ 'top': !resultsReturned, 'side': resultsReturned }"
+        title="The Good Booklist"
+        subtitle="Search for Books on any subject"
+      />
+      <div v-if="!resultsReturned" class="section-search">
+        <div class="search">
+          <input v-model="queryValue" placeholder="Find a Good Book" class="search-input">
+          <button v-on:click="getQuery">Search</button>
+        </div>
+        <div class="blue-box"/>
       </div>
-    </div>
-    <div v-if="!resultsReturned" class="section-search">
-      <div class="search">
-        <input v-model="queryValue" placeholder="Find a Good Book" class="search-input">
-        <button v-on:click="getQuery">Search</button>
+      <div v-if="resultsReturned">
+        <display-results :itemList="searchResults.items"/>
       </div>
-      <div class="blue-box"/>
-    </div>
-    <div v-if="resultsReturned">
-      <display-results :itemList="searchResults.items"/>
     </div>
   </div>
 </template>
@@ -23,16 +24,18 @@
 <script>
 import axios from "axios";
 import DisplayResults from "./DisplayResults.vue";
+import BooklistHeader from "./BooklistHeader.vue";
 import mockdata from "../../json/data.json";
 
 export default {
   name: "BookSearch",
   components: {
-    DisplayResults
+    DisplayResults,
+    BooklistHeader
   },
   data() {
     return {
-      // use mockdata as test JSON object for styling and testing purposes.
+      // use 'mockdata' as test JSON object for styling and testing purposes.
       searchResults: {},
       queryValue: "",
       //boolean to change view
@@ -60,9 +63,6 @@ export default {
           this.resultsReturned = true;
         });
       }
-    },
-    submitRequest: function() {
-      let test = this.getQuery;
     }
   }
 };

@@ -1,10 +1,9 @@
+<!-- Component that displays results.-->
 <template>
   <div>
-    <!--TODO : add a limit to number of books show -->
-    <div v-for="(book, index) in itemList" :key="book.id" class="Book-Section">
+    <div v-for="(book) in itemList" :key="book.id" class="Book-Section">
       <router-link :to="{ name: 'book', params: {id: book.id, itemInfo: book.volumeInfo } }">
         <div class="image-section">
-          <!--h1>{{ book.volumeInfo.imageLinks.thumbnail }}</h1-->
           <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">
         </div>
         <div class="into-section">
