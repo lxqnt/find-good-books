@@ -10,7 +10,6 @@
           <h3>{{ book.volumeInfo.title }}</h3>
           <h4>Publisher: {{ book.volumeInfo.publisher }}</h4>
           <h4>Author: {{ book.volumeInfo.author }}</h4>
-          <router-link :to=" path"
         </div>
         </router-link>
       </a>
