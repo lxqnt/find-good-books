@@ -37,6 +37,7 @@ yarn run
 * OAuth and protecting credentials 
 * Server side api calls 
 * Seperate API functions into own function
+* Testing opportunities 
 
 ## VueJS Front End Design 
 
@@ -47,6 +48,7 @@ yarn run
 ### UI 
 
 ### Things to Work On 
+* JS testing 
 * Routing 404 Error Handling 
 * Material Design 
 * Animation and transitions 
