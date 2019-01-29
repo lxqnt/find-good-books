@@ -3,16 +3,18 @@
   <div>
     <div>
       <booklist-header
-        :class="{ 'top': !resultsReturned, 'side': resultsReturned }"
-        title="The Good Booklist"
-        subtitle="Search for Books on any subject"
+        :side="resultsReturned"
+        :title="headerTitle"
+        subtitle="Search for Books on Any Subject"
       />
       <div v-if="!resultsReturned" class="section-search">
         <div class="search">
-          <input v-model="queryValue" placeholder="Find a Good Book" class="search-input">
-          <button v-on:click="getQuery">Search</button>
+          <input v-model="queryValue" placeholder="Find A Good Book" class="search-input">
+          <div>
+            <button v-on:click="getQuery">Search</button>
+          </div>
+          <!--div class="blue-box"/removed for now-->
         </div>
-        <div class="blue-box"/>
       </div>
       <div v-if="resultsReturned">
         <display-results :itemList="searchResults.items"/>
@@ -35,6 +37,7 @@ export default {
   },
   data() {
     return {
+      headerTitle: "The Good Booklist",
       // use 'mockdata' as test JSON object for styling and testing purposes.
       searchResults: {},
       queryValue: "",
@@ -49,7 +52,6 @@ export default {
         // empty string check
         const query = encodeURIComponent(this.queryValue);
         const apiURL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
-        console.log(apiURL);
         axios({
           async: true,
           url: apiURL,
@@ -61,6 +63,8 @@ export default {
           this.searchResults = response.data;
           console.log(response.data); //TODO: clean up console.logs and add response code check
           this.resultsReturned = true;
+          this.headerTitle =
+            "Here Are Some " + this.queryValue.toUpperCase() + " Books";
         });
       }
     }
@@ -69,4 +73,43 @@ export default {
 </script>
 
 <style>
+.top {
+  height: 40%;
+}
+.section-search {
+  margin-top: 5em;
+}
+.search input {
+  width: 25%;
+  height: 10px;
+  border: 2px solid grey;
+  color: black;
+  background-color: transparent;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 16px;
+  outline: none;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.search ::placeholder {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  justify-content: c;
+}
+.search button {
+  margin-top: 5px;
+  color: black;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  font-size: 20px;
+}
+
+.search button:active {
+  box-shadow: 0 3px 0 #00823f;
+  top: 3px;
+}
 </style>
