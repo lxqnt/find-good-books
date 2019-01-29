@@ -40,8 +40,10 @@ export default {
     };
   },
   methods: {
+    // Get request for search results
     getQuery: function() {
       if (this.queryValue.length > 0) {
+        // empty string check
         const query = encodeURIComponent(this.queryValue);
         const apiURL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
         console.log(apiURL);
@@ -50,11 +52,11 @@ export default {
           url: apiURL,
           method: "GET",
           headers: {
-            //  Authorization: `Bearer ${this.oAuthToken}`,
+            //  Test if authorization needed Authorization: `Bearer ${this.oAuthToken}`,
           }
         }).then(response => {
           this.searchResults = response.data;
-          console.log(response.data);
+          console.log(response.data); //TODO: clean up console.logs and add response code check
           this.resultsReturned = true;
         });
       }
