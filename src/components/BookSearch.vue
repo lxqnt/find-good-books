@@ -10,7 +10,7 @@
     <div v-if="!resultsReturned" class="section-search">
       <div class="search">
         <input v-model="queryValue" placeholder="Find a Good Book" class="search-input">
-        <button v-on:click="submitRequest">Search</button>
+        <button v-on:click="getQuery">Search</button>
       </div>
       <div class="blue-box"/>
     </div>
@@ -32,8 +32,8 @@ export default {
   },
   data() {
     return {
-      // have data returned to empty object
-      searchResults: mockdata,
+      // use mockdata as test JSON object for styling and testing purposes.
+      searchResults: {},
       queryValue: "",
       //boolean to change view
       resultsReturned: false
@@ -41,12 +41,26 @@ export default {
   },
   methods: {
     getQuery: function() {
-      return true;
+      if (this.queryValue.length > 0) {
+        const query = encodeURIComponent(this.queryValue);
+        const apiURL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
+        console.log(apiURL);
+        axios({
+          async: true,
+          url: apiURL,
+          method: "GET",
+          headers: {
+            //  Authorization: `Bearer ${this.oAuthToken}`,
+          }
+        }).then(response => {
+          this.searchResults = response.data;
+          console.log(response.data);
+          this.resultsReturned = true;
+        });
+      }
     },
     submitRequest: function() {
-      if (this.getQuery) {
-        this.resultsReturned = true;
-      }
+      let test = this.getQuery;
     }
   }
 };
