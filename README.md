@@ -1,8 +1,8 @@
-# new-booklist
+# The Good Booklist
 
-Project to explore google books api
+This is a simple project exploring client side api calls with Vue JS. In this webapp, I am using the google books API to request search query information. This was an opportunity to review Vue JS, api integrations, and basic server deployment. The project is live at https://the-good-booklist.herokuapp.com. 
 
-## Project setup
+## Basic Project setup
 
 ```
 yarn install
@@ -23,21 +23,32 @@ yarn run build
 ### Run your tests
 
 ```
-yarn run test
+yarn run 
 ```
 
-### Lints and fixes files
+## Axios and API Calls 
 
-```
-yarn run lint
-```
+### Google Books API 
 
-### Run your unit tests
+### Client Side API Calls 
 
-```
-yarn run test:unit
-```
+### Things to work on 
 
-### Customize configuration
+* OAuth and protecting credentials 
+* Server side api calls 
+* Seperate API functions into own function
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## VueJS Front End Design 
+
+### Use of Reactivity with Props and Computed
+
+### Routing with Vue Router
+
+### UI 
+
+### Things to Work On 
+* Routing 404 Error Handling 
+* Material Design 
+* Animation and transitions 
+
+
