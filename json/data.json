@@ -1,0 +1,796 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2154,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "lUA2o70Y83QC",
+      "etag": "1lfrNklsKUU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lUA2o70Y83QC",
+      "volumeInfo": {
+        "title": "Animal Testing",
+        "subtitle": "Issues and Ethics",
+        "authors": ["Stephanie Watson"],
+        "publisher": "The Rosen Publishing Group",
+        "publishedDate": "2009-01-01",
+        "description": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781435850224"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "143585022X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lUA2o70Y83QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lUA2o70Y83QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lUA2o70Y83QC&printsec=frontcover&dq=testing+in+animals&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=lUA2o70Y83QC&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=lUA2o70Y83QC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Animal_Testing-sample-epub.acsm?id=lUA2o70Y83QC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lUA2o70Y83QC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9f9ymYPmPeUC",
+      "etag": "c+sTyOBq57Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9f9ymYPmPeUC",
+      "volumeInfo": {
+        "title": "Animal Testing",
+        "subtitle": "The Animal Rights Debate",
+        "authors": ["Chris Hayhurst"],
+        "publisher": "The Rosen Publishing Group",
+        "publishedDate": "2000",
+        "description": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0823932133"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780823932139"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9f9ymYPmPeUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9f9ymYPmPeUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=9f9ymYPmPeUC&printsec=frontcover&dq=testing+in+animals&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=9f9ymYPmPeUC&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=9f9ymYPmPeUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9f9ymYPmPeUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vf2PSBFD2tMC",
+      "etag": "RJ2j+u59/vk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vf2PSBFD2tMC",
+      "volumeInfo": {
+        "title": "Science, Medicine, and Animals",
+        "subtitle": "A Circle of Discovery: Teacher's Guide",
+        "authors": [
+          "National Research Council",
+          "Division on Earth and Life Studies",
+          "Institute for Laboratory Animal Research"
+        ],
+        "publisher": "National Academies Press",
+        "publishedDate": "2006-01-19",
+        "description": "Science, Medicine, and Animals explains the role that animals play in biomedical research and the ways in which scientists, governments, and citizens have tried to balance the experimental use of animals with a concern for all living creatures. An accompanying Teacherâ€™s Guide is available to help teachers of middle and high school students use Science, Medicine, and Animals in the classroom. As students examine the issues in Science, Medicine, and Animals, they will gain a greater understanding of the goals of biomedical research and the real-world practice of the scientific method in general. Science, Medicine, and Animals and the Teacherâ€™s Guide were written by the Institute for Laboratory Animal Research and published by the National Research Council of the National Academies. The report was reviewed by a committee made up of experts and scholars with diverse perspectives, including members of the U.S. Department of Agriculture, National Institutes of Health, the Humane Society of the United States, and the American Society for the Prevention of Cruelty to Animals. The Teacherâ€™s Guide was reviewed by members of the National Academiesâ€™ Teacher Associates Network. Science, Medicine, and Animals is recommended by the National Science Teacherâ€™s Association NSTA Recommends.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0309181992"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780309181990"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 23,
+        "printType": "BOOK",
+        "categories": ["Science"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.7.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vf2PSBFD2tMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vf2PSBFD2tMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vf2PSBFD2tMC&printsec=frontcover&dq=testing+in+animals&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vf2PSBFD2tMC&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-vf2PSBFD2tMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 16.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vf2PSBFD2tMC&rdid=book-vf2PSBFD2tMC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.699e7,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vf2PSBFD2tMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Teacherâ€™s Guide was reviewed by members of the National Academiesâ€™ Teacher Associates Network. Science, Medicine, and Animals is recommended by the National Science Teacherâ€™s Association NSTA Recommends."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "d3UoDwAAQBAJ",
+      "etag": "GRP8Padpe+M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/d3UoDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Alternatives To Animal Testing",
+        "authors": ["R E Hester", "R M Harrison"],
+        "publisher": "Royal Society of Chemistry",
+        "publishedDate": "2007-10-31",
+        "description": "Animal experimentation has long been a controversial issue with impassioned arguments on both sides of the debate. Increasingly it has become more expedient and feasible to develop new methods that avoid the use of animals. There is agreement on both sides that reduction and refinement of experiments on animals should be an important goal for the industries involved. Alternatives to Animal Testing, written by leading experts in the field, discusses the issues involved and approaches that can be taken. Topics include; the safety evaluation of chemicals, international validation and barriers to the validation of alternative tests, in vitro testing for endocrine disruptors, intelligent approaches to safety evaluation of chemicals, alternative tests and the regulatory framework. The book provides an up-to-date discussion of the current state of development of alternatives to animal testing and is ideal for professionals and academics in the field. It would also be of use for graduate students wishing to pursue a career in the pharmaceutical and cosmetic industries.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781847552457"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1847552455"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 136,
+        "printType": "BOOK",
+        "categories": ["Medical"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=d3UoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=d3UoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=d3UoDwAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=d3UoDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-d3UoDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 84.0,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 67.2,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=d3UoDwAAQBAJ&rdid=book-d3UoDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8.4e7,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 6.72e7,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Alternatives_To_Animal_Testing-sample-pdf.acsm?id=d3UoDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=d3UoDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The book provides an up-to-date discussion of the current state of development of alternatives to animal testing and is ideal for professionals and academics in the field."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jQjTAQAAQBAJ",
+      "etag": "HaC5sK48/Jc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jQjTAQAAQBAJ",
+      "volumeInfo": {
+        "title": "Reducing, Refining and Replacing the Use of Animals in Toxicity Testing",
+        "authors": ["Dave Allen", "Mike D. Waters"],
+        "publisher": "Royal Society of Chemistry",
+        "publishedDate": "2013",
+        "description": "Toxicity testing is used to assess the safety or hazards presented by substances such as industrial chemicals, consumer products, and pharmaceuticals. At present, many methods involve laboratory animals. Alternative procedures, some involving human cell-based technologies, are now being developed which reduce, refine, or replace animal usage and minimize the pain and distress caused. These new tests must protect public health and the environment at least as well as currently accepted methods. This book describes the ever-expanding \"toolbox\" of methods available to assess toxicity. Such techniques often result from our growing understanding of the biochemical and cellular pathways that mediate toxicity mechanisms. This permits evaluations of information generated from several sources to generate a \"weight of evidence.\" By combining in silico, in vitro, and ex vivo methods with technologies that rely on biochemical- and cell-based in vitro assays, toxicologists are developing mechanistically based alternatives to live animal experimentation. This text also explores the complexities associated with adequate validation, and the assessment of test reliability and relevance. It provides an essential reference source for postgraduates, academics and industrialists working in this rapidly changing area.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781849736527"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1849736529"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 369,
+        "printType": "BOOK",
+        "categories": ["Medical"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jQjTAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jQjTAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=jQjTAQAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=jQjTAQAAQBAJ&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Reducing_Refining_and_Replacing_the_Use.html?hl=&id=jQjTAQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=jQjTAQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Toxicology Resarch, RSC Drug Discovery Series 5. This text will explore the complexities associated with adequate validation, and the assessment of different test methods&#39; reliability and relevance."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "eUTmBQAAQBAJ",
+      "etag": "SWh7I7AloRQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/eUTmBQAAQBAJ",
+      "volumeInfo": {
+        "title": "Animal Testing",
+        "subtitle": "Life-Saving Research Vs. Animal Welfare",
+        "authors": ["Lois Sepahban"],
+        "publisher": "Capstone",
+        "publishedDate": "2015",
+        "description": "Examines both sides of the issue of animal experimentation, discussing the practice's historical benefits to science and the ethical concerns of animal cruelty.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780756549961"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0756549965"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 30,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=eUTmBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=eUTmBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=eUTmBQAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=eUTmBQAAQBAJ&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=eUTmBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=eUTmBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Examines both sides of the issue of animal experimentation, discussing the practice&#39;s historical benefits to science and the ethical concerns of animal cruelty."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kD-cXSnF0m0C",
+      "etag": "m1ZXgMioemM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kD-cXSnF0m0C",
+      "volumeInfo": {
+        "title": "Use of Laboratory Animals in Biomedical and Behavioral Research",
+        "authors": [
+          "National Research Council",
+          "Institute of Medicine",
+          "Institute for Laboratory Animal Research",
+          "Commission on Life Sciences",
+          "Committee on the Use of Laboratory Animals in Biomedical and Behavioral Research"
+        ],
+        "publisher": "National Academies Press",
+        "publishedDate": "1988-02-01",
+        "description": "Scientific experiments using animals have contributed significantly to the improvement of human health. Animal experiments were crucial to the conquest of polio, for example, and they will undoubtedly be one of the keystones in AIDS research. However, some persons believe that the cost to the animals is often high. Authored by a committee of experts from various fields, this book discusses the benefits that have resulted from animal research, the scope of animal research today, the concerns of advocates of animal welfare, and the prospects for finding alternatives to animal use. The authors conclude with specific recommendations for more consistent government action.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780309038393"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0309038391"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 112,
+        "printType": "BOOK",
+        "categories": ["Science"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kD-cXSnF0m0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kD-cXSnF0m0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=kD-cXSnF0m0C&printsec=frontcover&dq=testing+in+animals&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=kD-cXSnF0m0C&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Use_of_Laboratory_Animals_in_Biomedical.html?hl=&id=kD-cXSnF0m0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kD-cXSnF0m0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Authored by a committee of experts from various fields, this book discusses the benefits that have resulted from animal research, the scope of animal research today, the concerns of advocates of animal welfare, and the prospects for finding ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lYU0DwAAQBAJ",
+      "etag": "n2kQKDCotgo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lYU0DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Management of Animal Care and Use Programs in Research, Education, and Testing, Second Edition",
+        "authors": [
+          "Robert H. Weichbrod",
+          "Gail A. (Heidbrink) Thompson",
+          "John N. Norton"
+        ],
+        "publisher": "CRC Press",
+        "publishedDate": "2017-09-07",
+        "description": "Biomedical research using animals requires administrators and managers who are knowledgeable and highly skilled. They must adapt to the complexity of rapidly-changing technologies, balance research goals with a thorough understanding of regulatory requirements and guidelines, and know how to work with a multi-generational, multi-cultural workforce. Management of Animal Care and Use Programs in Research, Education, and Testing, Second Edition is the extensively expanded revision of the popular Management of Laboratory Animal Care and Use Programs book published earlier this century. Following in the footsteps of the first edition, this revision serves as a first line management resource, providing for strong advocacy for advancing quality animal welfare and science worldwide, and continues as a valuable seminal reference for those engaged in all types of programs involving animal care and use. It has more than doubled the number of chapters in the original volume to present a more comprehensive overview of the current breadth and depth of the field with applicability to an international audience. Readers are provided with the latest information and resource and reference material from authors who are noted experts in their field. Co-publishers on the second edition are: ACLAM (American College of Laboratory Animal Medicine); ECLAM (European College of Laboratory Animal Medicine); IACLAM (International Colleges of Laboratory Animal Medicine); JCLAM (Japanese College of Laboratory Animal Medicine); KCLAM (Korean College of Laboratory Animal Medicine); CALAS (Canadian Association of Laboratory Animal Medicine); LAMA (Laboratory Animal Management Association); and IAT (Institute of Animal Technology).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781351648226"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1351648225"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 872,
+        "printType": "BOOK",
+        "categories": ["Medical"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lYU0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lYU0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lYU0DwAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lYU0DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-lYU0DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 99.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 79.96,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=lYU0DwAAQBAJ&rdid=book-lYU0DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9.995e7,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7.996e7,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Management_of_Animal_Care_and_Use_Progra-sample-epub.acsm?id=lYU0DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Management_of_Animal_Care_and_Use_Progra-sample-pdf.acsm?id=lYU0DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lYU0DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Co-publishers on the second edition are: ACLAM (American College of Laboratory Animal Medicine); ECLAM (European College of Laboratory Animal Medicine); IACLAM (International Colleges of Laboratory Animal Medicine); JCLAM (Japanese College ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SkdiQgAACAAJ",
+      "etag": "k37TubvwygI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SkdiQgAACAAJ",
+      "volumeInfo": {
+        "title": "Animal Testing and Consumer Products",
+        "authors": ["Heidi J. Welsh"],
+        "publisher": "Investor Responsibility",
+        "publishedDate": "1990",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0931035392"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780931035395"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 167,
+        "printType": "BOOK",
+        "categories": ["Technology & Engineering"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SkdiQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SkdiQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=SkdiQgAACAAJ&dq=testing+in+animals&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=SkdiQgAACAAJ&dq=testing+in+animals&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing_and_Consumer_Products.html?hl=&id=SkdiQgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SkdiQgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZiAXWfQNKIMC",
+      "etag": "MvALKYrK/eY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZiAXWfQNKIMC",
+      "volumeInfo": {
+        "title": "Alternatives to Animal Testing",
+        "subtitle": "New Ways in the Biomedical Sciences, Trends and Progress",
+        "authors": ["Christoph A. Reinhardt"],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2008-11-20",
+        "description": "Opinion leaders in science and politics examine findings and legislation in alternatives to animal testing! Refine, reduce, replace - These are the three demands that scientists have placed upon themselves in their search for alternatives to animal testing. Indeed much interdisciplinary research is being carried on today, and new fields have emerged, such as in-vitro toxicology. The three R's call for new scientific insights. Moreover, validation and acceptance strategies have to be adapted, a process of much ongoing interest and vital concern to the pharmaceutical and cosmetic industries. Researchers need to know exactly what has been achieved and accepted in alternatives to animal testing in science and politics. In this book they have the opportunity to benefit from the knowledge and expertise of leading researchers and influential representatives of national and international regulatory authorities.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783527616046"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3527616047"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": ["Science"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZiAXWfQNKIMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZiAXWfQNKIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ZiAXWfQNKIMC&printsec=frontcover&dq=testing+in+animals&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZiAXWfQNKIMC&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-ZiAXWfQNKIMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 132.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 106.39,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZiAXWfQNKIMC&rdid=book-ZiAXWfQNKIMC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.3299e8,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.0639e8,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Alternatives_to_Animal_Testing-sample-pdf.acsm?id=ZiAXWfQNKIMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZiAXWfQNKIMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Refine, reduce, replace - These are the three demands that scientists have placed upon themselves in their search for alternatives to animal testing."
+      }
+    }
+  ]
+}
