@@ -97,4 +97,24 @@ describe("ResultSnippet.vue", () => {
     });
     expect(wrapper.text()).to.include("");
   });
+
+  it("displays publisher", () => {
+    const bookInfo = mockdata.items[1].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Del Rey");
+  });
+
+  it("doesnt break when no publisher", () => {
+    const bookInfo = mockdata.items[5].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
+  });
 });
