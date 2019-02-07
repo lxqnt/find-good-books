@@ -6,6 +6,7 @@
         class="href"
         :to="{ name: 'book', params: {id: book.id, itemInfo: book.volumeInfo } }"
       >
+        <result-snippet/>
         <div class="book-section">
           <div class="image-section">
             <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">
@@ -23,10 +24,14 @@
 </template>
 
 <script>
+import ResultSnippet from "@/components/ResultSnippet.vue";
 export default {
   name: "DisplayResults",
   props: {
     itemList: Array
+  },
+  components: {
+    ResultSnippet
   }
 };
 </script>

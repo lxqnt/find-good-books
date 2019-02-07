@@ -4,6 +4,7 @@ import { shallowMount, createLocalVue } from "@vue/test-utils";
 import BookSearch from "@/components/BookSearch.vue";
 import DisplayResults from "@/components/DisplayResults.vue";
 import mockdata from "../json/data.json";
+import ResultSnippet from "@/components/ResultSnippet.vue";
 
 describe("BookSearch.vue", () => {
   it("renders a vue instance", () => {
