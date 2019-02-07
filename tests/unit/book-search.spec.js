@@ -10,6 +10,13 @@ describe("BookSearch.vue", () => {
   it("renders a vue instance", () => {
     expect(shallowMount(BookSearch).isVueInstance()).to.equal(true);
   });
+
+  it("query param returned as URI", () => {
+    const localState = { queryValue: "some winners" };
+    expect(BookSearch.computed.getQuery.call(localState)).to.equal(
+      "some%20winners"
+    );
+  });
 });
 
 const localVue = createLocalVue();
