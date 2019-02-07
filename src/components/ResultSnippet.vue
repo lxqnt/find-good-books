@@ -7,8 +7,7 @@
     <div class="info-section">
       <h2>{{ getTitle }}</h2>
       <h4>{{ getAllAuthors }}</h4>
-      <!-- <h4>Publisher: {{ book.volumeInfo.publisher }}</h4>-->
-      -->
+      <h4>{{ getPublisher }}</h4>
       <h4>Click to learn more!</h4>
     </div>
   </div>
@@ -21,6 +20,11 @@ export default {
     volumeInfo: Object
   },
   computed: {
+    getPublisher() {
+      if (this.volumeInfo.publisher) {
+        return "Publisher is" + this.volumeInfo.publisher;
+      }
+    },
     getTitle() {
       return this.volumeInfo.title;
     },

@@ -117,4 +117,26 @@ describe("ResultSnippet.vue", () => {
     });
     expect(wrapper.text()).to.include("");
   });
+
+  it("displays book image", () => {
+    const bookInfo = mockdata.items[1].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.html()).to.include(
+      '<img :src="http://books.google.com/books/content?id=KcWGokt5fsQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"'
+    );
+  });
+
+  it("doesnt break when no image", () => {
+    const bookInfo = mockdata.items[5].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.html()).to.include("");
+  });
 });
