@@ -2,7 +2,9 @@
   <div class="section-title" :class="{ 'top': !side, 'side': side}">
     <div class="red-box"/>
     <div class="title">
-      <h1>{{ title }}</h1>
+      <router-link class="href" :to="{ name: 'home' }">
+        <h1>{{ title }}</h1>
+      </router-link>
       <h3 v-if="!side">{{ subtitle }}</h3>
     </div>
   </div>
@@ -36,6 +38,7 @@ export default {
   margin-top: 4em;
 }
 .top h1 {
+  color: black;
   justify-content: center;
   text-align: center;
   font-display: bold;
@@ -81,6 +84,7 @@ export default {
 }
 
 .side h1 {
+  color: black;
   padding: 10px;
   font-size: 2em;
 }
