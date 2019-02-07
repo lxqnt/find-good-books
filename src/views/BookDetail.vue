@@ -1,57 +1,48 @@
 <template>
-  <div class="section-detail">
-    <div>
-      <img :src="itemInfo.imageLinks.thumbnail" :alt="getTitle">
-    </div>
-    <h1>{{ getTitle }}</h1>
-    <h2>By{{ getAllAuthors }}</h2>
-    <h4>A Short Description</h4>
-    <p>The book was published in {{ getDate }} by {{ getPublisher }}. It was written by{{ getAllAuthors }}.</p>
-    <p>{{ getDescription }}</p>
+  <div>
+    <booklist-header :side="false" title="The Good Booklist"/>
+    <result-detail :itemInfo="results.volumeInfo"/>
   </div>
 </template>
 
 <script>
+import axios from "axios";
+import ResultDetail from "@/components/ResultDetail.vue";
+import BooklistHeader from "@/components/BooklistHeader.vue";
+
 export default {
   name: "BookDetail",
-  props: {
-    itemInfo: {}
+  components: {
+    ResultDetail,
+    BooklistHeader
+  },
+  mounted() {
+    const id = encodeURIComponent(this.bookID);
+    const apiURL = `https://www.googleapis.com/books/v1/volumes/${id}`;
+    axios({
+      async: true,
+      url: apiURL,
+      method: "GET"
+    }).then(response => {
+      let searchResults = response.data;
+      console.log(response); //TODO: clean up console.logs and add response code check
+      this.results = searchResults;
+    });
+  },
+  data() {
+    return {
+      results: {
+        volumeInfo: {}
+      }
+    };
   },
   computed: {
-    // Adding computed getters for the information.
-    // This will allow me to manipulate the info as I need more easily and seperate from the view layer
-    getTitle() {
-      let title = this.itemInfo.title;
-      return title;
-    },
-    getAllAuthors() {
-      if (this.itemInfo.authors) {
-        let allAuthors = "";
-        for (let value in Object.values(this.itemInfo.authors)) {
-          allAuthors += " " + value;
-        }
-        return allAuthors;
-      }
-    },
-    getDate() {
-      let date = this.itemInfo.publishedDate;
-      return date;
-    },
-    getPublisher() {
-      let publisher = this.itemInfo.publisher;
-      return publisher;
-    },
-    getDescription() {
-      let description = this.itemInfo.description;
-      return description;
+    bookID() {
+      return this.$route.params.id;
     }
   }
 };
 </script>
 
 <style>
-.section-detail {
-  align-content: justify;
-  margin: 0 50px;
-}
 </style>

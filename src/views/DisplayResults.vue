@@ -3,10 +3,7 @@
   <div>
     <booklist-header :side="true" :title="title" subtitle="Search for Books on Any Subject"/>
     <div v-for="(book) in results.items" :key="book.id">
-      <router-link
-        class="href"
-        :to="{ name: 'book', params: {id: book.id, itemInfo: book.volumeInfo } }"
-      >
+      <router-link class="href" :to="{ name: 'book', params: {id: book.id} }">
         <result-snippet :volumeInfo="book.volumeInfo"/>
       </router-link>
     </div>
@@ -25,7 +22,7 @@ export default {
     BooklistHeader
   },
   mounted() {
-    const query = encodeURIComponent(this.searchTerm);
+    const query = this.searchTerm;
     const apiURL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
     axios({
       async: true,
