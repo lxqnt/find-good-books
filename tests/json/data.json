@@ -451,10 +451,8 @@
       "etag": "L/nBd0Ax6DU",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/h1SQNXxRdMUC",
       "volumeInfo": {
-        "title": "42 Seconds from Broadway",
         "subtitle": "A Play in Two Acts",
         "authors": ["Louis Del Grande"],
-        "publisher": "Samuel French, Inc.",
         "publishedDate": "1973",
         "industryIdentifiers": [
           {
@@ -477,8 +475,7 @@
         "allowAnonLogging": false,
         "contentVersion": "0.0.3.0.preview.3",
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=h1SQNXxRdMUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=h1SQNXxRdMUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=h1SQNXxRdMUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
         },
         "language": "en",
         "previewLink": "http://books.google.com/books?id=h1SQNXxRdMUC&pg=PA3&dq=42&hl=&cd=6&source=gbs_api",

@@ -25,11 +25,13 @@ export default {
       return title;
     },
     getAllAuthors() {
-      let allAuthors = "";
-      for (let value in Object.values(this.itemInfo.authors)) {
-        allAuthors += " " + value;
+      if (this.itemInfo.authors) {
+        let allAuthors = "";
+        for (let value in Object.values(this.itemInfo.authors)) {
+          allAuthors += " " + value;
+        }
+        return allAuthors;
       }
-      return allAuthors;
     },
     getDate() {
       let date = this.itemInfo.publishedDate;
