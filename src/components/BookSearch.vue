@@ -27,7 +27,6 @@
 import axios from "axios";
 import DisplayResults from "./DisplayResults.vue";
 import BooklistHeader from "./BooklistHeader.vue";
-import mockdata from "../../json/data.json";
 
 export default {
   name: "BookSearch",
@@ -38,7 +37,6 @@ export default {
   data() {
     return {
       headerTitle: "The Good Booklist",
-      // use 'mockdata' as test JSON object for styling and testing purposes.
       searchResults: {},
       queryValue: "",
       //boolean to change view

@@ -26,7 +26,7 @@ export default {
     },
     getAllAuthors() {
       let allAuthors = "";
-      for (let [id, value] of Object.entries(this.itemInfo.authors)) {
+      for (let value in Object.values(this.itemInfo.authors)) {
         allAuthors += " " + value;
       }
       return allAuthors;
