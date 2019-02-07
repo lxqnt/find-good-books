@@ -355,7 +355,6 @@
       "etag": "5Q9rQHZLwew",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/k0BvDAAAQBAJ",
       "volumeInfo": {
-        "title": "42 Faith",
         "subtitle": "The Rest of the Jackie Robinson Story",
         "authors": ["Ed Henry"],
         "publisher": "Thomas Nelson",

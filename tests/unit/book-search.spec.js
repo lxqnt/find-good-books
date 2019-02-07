@@ -47,12 +47,42 @@ describe("ResultSnippet.vue", () => {
   });
 
   it("displays title", () => {
-    const bookInfo = mockdata.items[0].volumeInfo;
+    const bookInfo = mockdata.items[1].volumeInfo;
     const wrapper = shallowMount(ResultSnippet, {
       propsData: {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.text()).to.include(bookInfo.title);
+    expect(wrapper.text()).to.include("Life, the Universe and Everything");
+  });
+
+  it("doesnt break when no title", () => {
+    const bookInfo = mockdata.items[5].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
+  });
+
+  it("displays single author", () => {
+    const bookInfo = mockdata.items[1].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Douglas Adams");
+  });
+
+  it("displays multiple authors", () => {
+    const bookInfo = mockdata.items[1].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Douglas Adams");
   });
 });
