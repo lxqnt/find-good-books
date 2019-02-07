@@ -6,8 +6,8 @@
         class="href"
         :to="{ name: 'book', params: {id: book.id, itemInfo: book.volumeInfo } }"
       >
-        <result-snippet/>
-        <div class="book-section">
+        <result-snippet :volumeInfo="book.volumeInfo"/>
+        <!-- <div class="book-section">
           <div class="image-section">
             <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">
           </div>
@@ -17,7 +17,7 @@
             <h4>Publisher: {{ book.volumeInfo.publisher }}</h4>
             <h4>Click to learn more!</h4>
           </div>
-        </div>
+        </div>-->
       </router-link>
     </div>
   </div>
@@ -63,8 +63,5 @@ export default {
   margin: 10px;
   text-align: right;
   color: black;
-}
-
-.book-section .info-section {
 }
 </style>
