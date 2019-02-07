@@ -20,7 +20,7 @@ describe("DisplayResults.vue", () => {
     expect(shallowMount(DisplayResults).isVueInstance()).to.equal(true);
   });
 
-  it("accepts a json object as data", () => {
+  it("accepts an array of book data", () => {
     const itemList = mockdata.items;
     const wrapper = shallowMount(DisplayResults, {
       localVue,
@@ -33,5 +33,12 @@ describe("DisplayResults.vue", () => {
 describe("ResultSnippet.vue", () => {
   it("renders a vue instance", () => {
     expect(shallowMount(ResultSnippet).isVueInstance()).to.equal(true);
+  });
+  it("accepts a single book object ", () => {
+    const bookInfo = mockdata.items[0].volumeInfo;
+    const wrapper = shallowMount(DisplayResults, {
+      propsData: { bookInfo }
+    });
+    assert.equal(wrapper.vm.volumeInfo, bookInfo, "Does not exist");
   });
 });
