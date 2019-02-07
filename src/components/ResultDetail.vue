@@ -21,7 +21,11 @@ export default {
     // Adding computed getters for the information.
     // This will allow me to manipulate the info as I need more easily and seperate from the view layer
     getImgUrl() {
-      return this.volumeInfo.imageLinks.thumbnail;
+      if (this.volumeInfo.imageLinks) {
+        return this.volumeInfo.imageLinks.thumbnail;
+      } else {
+        return "";
+      }
     },
     getPublisher() {
       if (this.volumeInfo.publisher) {

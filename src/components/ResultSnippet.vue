@@ -21,7 +21,11 @@ export default {
   },
   computed: {
     getImgUrl() {
-      return this.volumeInfo.imageLinks.thumbnail;
+      if (this.volumeInfo.imageLinks) {
+        return this.volumeInfo.imageLinks.thumbnail;
+      } else {
+        return "";
+      }
     },
     getPublisher() {
       if (this.volumeInfo.publisher) {
