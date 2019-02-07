@@ -75,4 +75,9 @@ export default {
   text-align: right;
   color: black;
 }
+@media screen and (max-width: 900px) {
+  .book-section .info-section {
+    width: 80%;
+  }
+}
 </style>

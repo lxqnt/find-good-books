@@ -1,7 +1,7 @@
 <!-- Component that displays results.-->
 <template>
   <div>
-    <booklist-header :side="true" :title="searchTerm" subtitle="Search for Books on Any Subject"/>
+    <booklist-header :side="true" :title="title" subtitle="Search for Books on Any Subject"/>
     <div v-for="(book) in results.items" :key="book.id">
       <router-link
         class="href"
@@ -15,7 +15,6 @@
 
 <script>
 import axios from "axios";
-import { getBooks } from "@/api/GoogleBookApi";
 import ResultSnippet from "@/components/ResultSnippet.vue";
 import BooklistHeader from "@/components/BooklistHeader.vue";
 
@@ -48,6 +47,11 @@ export default {
   computed: {
     searchTerm() {
       return this.$route.params.id;
+    },
+    title() {
+      let title =
+        "Some " + decodeURIComponent(this.searchTerm).toUpperCase() + " Books";
+      return title;
     }
   }
 };
