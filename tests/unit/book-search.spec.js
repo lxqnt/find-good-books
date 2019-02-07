@@ -6,6 +6,7 @@ import DisplayResults from "@/views/DisplayResults.vue";
 import mockdata from "../json/data.json";
 import ResultSnippet from "@/components/ResultSnippet.vue";
 import singleBook from "../json/singlebook.json";
+import singleFailBook from "../json/singleFailBook.json";
 import ResultDetail from "@/components/ResultDetail.vue";
 
 /* Book Search Componenet tests */
@@ -199,7 +200,7 @@ describe("ResultDetail.vue", () => {
   });
 
   it("doesnt break when no title", () => {
-    const bookInfo = singleBook.volumeInfo;
+    const bookInfo = singleFailBook.volumeInfo;
     const wrapper = shallowMount(ResultDetail, {
       propsData: {
         volumeInfo: bookInfo
@@ -219,15 +220,13 @@ describe("ResultDetail.vue", () => {
   });
 
   it("displays multiple authors", () => {
-    const bookInfo = singleBook.volumeInfo;
+    const bookInfo = singleFailBook.volumeInfo;
     const wrapper = shallowMount(ResultDetail, {
       propsData: {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.text()).to.include(
-      "Henning Wallentowitz, and Christian Amsel"
-    );
+    expect(wrapper.text()).to.include("Brian Herbert, and Kevin J. Anderson");
   });
 
   it("doesnt break with no authors", () => {
@@ -247,11 +246,11 @@ describe("ResultDetail.vue", () => {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.text()).to.include("Del Rey");
+    expect(wrapper.text()).to.include("Random House Publishing Group");
   });
 
   it("doesnt break when no publisher", () => {
-    const bookInfo = singleBook.volumeInfo;
+    const bookInfo = singleFailBook.volumeInfo;
     const wrapper = shallowMount(ResultDetail, {
       propsData: {
         volumeInfo: bookInfo
@@ -268,17 +267,29 @@ describe("ResultDetail.vue", () => {
       }
     });
     expect(wrapper.html()).to.contain(
-      '<img src="http://books.google.com/books/content?id=KcWGokt5fsQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"'
+      '<img src="http://books.google.com/books/content?id=KcWGokt5fsQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;imgtk=AFLRE73AQf9pli-kTHjlw-WBwYeYZUqDOr5GXyngqfuIa2jv1FAU9h3iJ9aryzyjvliLWqaljCD-c4sOdJRdEE_t2AAmEiqzTrM_W07VBIX1hkeuJLxym5CDhta2Atq1BkbD9eUhxZTE&amp;source=gbs_api"'
     );
   });
 
   it("doesnt break when no image", () => {
+    const bookInfo = singleFailBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.html()).to.include("<img src=");
+  });
+
+  it("displays only the year of the date", () => {
     const bookInfo = singleBook.volumeInfo;
     const wrapper = shallowMount(ResultDetail, {
       propsData: {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.html()).to.include("");
+    expect(wrapper.text())
+      .to.include("2008")
+      .and.not.include("12-24");
   });
 });

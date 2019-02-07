@@ -5,9 +5,8 @@
     </div>
     <h1>{{ getTitle }}</h1>
     <h2>{{ getAllAuthors }}</h2>
-    <h4>{{ getPublisher}}</h4>
+    <h4>{{ getPublisher}} {{ getDate }}</h4>
     <h4>A Short Description</h4>
-    <!-- <p>The book was published in {{ getDate }} by {{ getPublisher }}. It was written by{{ getAllAuthors }}.</p> -->
     <span v-html="getDescription"></span>
   </div>
 </template>
@@ -56,7 +55,7 @@ export default {
     },
     getDate() {
       let date = this.volumeInfo.publishedDate;
-      return date;
+      return "in " + date.slice(0, 4);
     },
     getDescription() {
       let description = this.volumeInfo.description;

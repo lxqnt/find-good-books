@@ -1,0 +1,99 @@
+{
+  "kind": "books#volume",
+  "id": "D12dCwAAQBAJ",
+  "etag": "7PxxKgMOygk",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/D12dCwAAQBAJ",
+  "volumeInfo": {
+    "subtitle": "Book Three of the Schools of Dune Trilogy",
+    "authors": ["Brian Herbert", "Kevin J. Anderson"],
+    "publishedDate": "2016-09-13",
+    "description": "<p>Brian Herbert and Kevin J. Anderson's <i>Navigators of Dune</i> is the climactic finale of the Great Schools of Dune trilogy, set 10,000 years before Frank Herbert's classic <i>Dune</i>.</p><p>The story line tells the origins of the Bene Gesserit Sisterhood and its breeding program, the human-computer Mentats, and the Navigators (the Spacing Guild), as well as a crucial battle for the future of the human race, in which reason faces off against fanaticism. These events have far-reaching consequences that will set the stage for <i>Dune</i>, millennia later.</p><p>At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.</p>",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "1466878800"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9781466878808"
+      }
+    ],
+    "readingModes": {
+      "text": true,
+      "image": false
+    },
+    "pageCount": 448,
+    "printedPageCount": 413,
+    "dimensions": {
+      "height": "25.00 cm"
+    },
+    "printType": "BOOK",
+    "categories": [
+      "Fiction / Science Fiction / Space Opera",
+      "Fiction / Science Fiction / Action & Adventure"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=D12dCwAAQBAJ&hl=&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=D12dCwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-D12dCwAAQBAJ"
+  },
+  "layerInfo": {
+    "layers": [
+      {
+        "layerId": "geo",
+        "volumeAnnotationsVersion": "4"
+      }
+    ]
+  },
+  "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+      "amount": 9.99,
+      "currencyCode": "USD"
+    },
+    "retailPrice": {
+      "amount": 9.99,
+      "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=D12dCwAAQBAJ&rdid=book-D12dCwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+      {
+        "finskyOfferType": 1,
+        "listPrice": {
+          "amountInMicros": 9990000,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amountInMicros": 9990000,
+          "currencyCode": "USD"
+        },
+        "giftable": true
+      }
+    ]
+  },
+  "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": true
+    },
+    "pdf": {
+      "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=D12dCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  }
+}
