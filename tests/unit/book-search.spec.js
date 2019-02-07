@@ -83,6 +83,18 @@ describe("ResultSnippet.vue", () => {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.text()).to.include("Henning Wallentowitz, Christian Amsel");
+    expect(wrapper.text()).to.include(
+      "Henning Wallentowitz, and Christian Amsel"
+    );
+  });
+
+  it("doesnt break with no authors", () => {
+    const bookInfo = mockdata.items[3].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
   });
 });
