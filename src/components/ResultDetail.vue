@@ -5,6 +5,7 @@
     </div>
     <h1>{{ getTitle }}</h1>
     <h2>{{ getAllAuthors }}</h2>
+    <h4>{{ getPublisher}}</h4>
     <h4>A Short Description</h4>
     <!-- <p>The book was published in {{ getDate }} by {{ getPublisher }}. It was written by{{ getAllAuthors }}.</p> -->
     <span v-html="getDescription"></span>
@@ -29,7 +30,7 @@ export default {
     },
     getPublisher() {
       if (this.volumeInfo.publisher) {
-        return "Publisher is " + this.volumeInfo.publisher;
+        return "Published by " + this.volumeInfo.publisher;
       }
       return "";
     },
