@@ -15,7 +15,7 @@ export default new Router({
       component: Home
     },
     {
-      path: "search/:id",
+      path: "/search/:id",
       name: "search",
       props: true,
       component: DisplayResults
