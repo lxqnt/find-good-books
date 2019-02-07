@@ -1,7 +1,7 @@
 <template>
   <div>
     <booklist-header :side="false" title="The Good Booklist"/>
-    <result-detail :itemInfo="results.volumeInfo"/>
+    <result-detail :volumeInfo="results.volumeInfo"/>
   </div>
 </template>
 

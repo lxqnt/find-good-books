@@ -5,6 +5,8 @@ import BookSearch from "@/components/BookSearch.vue";
 import DisplayResults from "@/views/DisplayResults.vue";
 import mockdata from "../json/data.json";
 import ResultSnippet from "@/components/ResultSnippet.vue";
+import singleBook from "../json/singlebook.json";
+import ResultDetail from "@/components/ResultDetail.vue";
 
 /* Book Search Componenet tests */
 
@@ -161,6 +163,118 @@ describe("ResultSnippet.vue", () => {
   it("doesnt break when no image", () => {
     const bookInfo = mockdata.items[5].volumeInfo;
     const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.html()).to.include("");
+  });
+});
+
+/* Result Detail page */
+describe("ResultDetail.vue", () => {
+  it("renders a vue instance", () => {
+    expect(shallowMount(ResultDetail).isVueInstance()).to.equal(true);
+  });
+
+  it("accepts a single book object ", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    // console.log(bookInfo);
+    assert.equal(wrapper.vm.volumeInfo, bookInfo);
+  });
+
+  it("displays title", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Life, the Universe and Everything");
+  });
+
+  it("doesnt break when no title", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
+  });
+
+  it("displays single author", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Douglas Adams");
+  });
+
+  it("displays multiple authors", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include(
+      "Henning Wallentowitz, and Christian Amsel"
+    );
+  });
+
+  it("doesnt break with no authors", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
+  });
+
+  it("displays publisher", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("Del Rey");
+  });
+
+  it("doesnt break when no publisher", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include("");
+  });
+
+  it("displays book image", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.html()).to.contain(
+      '<img src="http://books.google.com/books/content?id=KcWGokt5fsQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"'
+    );
+  });
+
+  it("doesnt break when no image", () => {
+    const bookInfo = singleBook.volumeInfo;
+    const wrapper = shallowMount(ResultDetail, {
       propsData: {
         volumeInfo: bookInfo
       }
