@@ -2,7 +2,7 @@ import { expect, assert } from "chai";
 import VueRouter from "vue-router";
 import { shallowMount, createLocalVue } from "@vue/test-utils";
 import BookSearch from "@/components/BookSearch.vue";
-import DisplayResults from "@/components/DisplayResults.vue";
+import DisplayResults from "@/views/DisplayResults.vue";
 import mockdata from "../json/data.json";
 import ResultSnippet from "@/components/ResultSnippet.vue";
 

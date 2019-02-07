@@ -11,27 +11,24 @@
         <div class="search">
           <input v-model="queryValue" placeholder="Find A Good Book" class="search-input">
           <div>
-            <button v-on:click="getQuery">Search</button>
+            <router-link class="href" :to="{ name: 'search', params: {id: getQuery} }">
+              <button>Search</button>
+            </router-link>
           </div>
-          <!--div class="blue-box"/removed for now-->
         </div>
       </div>
-      <div v-if="resultsReturned">
-        <display-results :itemList="searchResults.items"/>
-      </div>
+      <div v-if="resultsReturned"></div>
     </div>
   </div>
 </template>
 
 <script>
 import axios from "axios";
-import DisplayResults from "./DisplayResults.vue";
 import BooklistHeader from "./BooklistHeader.vue";
 
 export default {
   name: "BookSearch",
   components: {
-    DisplayResults,
     BooklistHeader
   },
   data() {
@@ -43,9 +40,14 @@ export default {
       resultsReturned: false
     };
   },
+  computed: {
+    getQuery() {
+      return encodeURIComponent(this.queryValue);
+    }
+  },
   methods: {
     // Get request for search results
-    getQuery: function() {
+    getsomeQuery: function() {
       if (this.queryValue.length > 0) {
         // empty string check
         const query = encodeURIComponent(this.queryValue);

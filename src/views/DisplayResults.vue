@@ -1,23 +1,13 @@
 <!-- Component that displays results.-->
 <template>
   <div>
+    <booklist-header :side="true" :title="headerTitle" subtitle="Search for Books on Any Subject"/>
     <div v-for="(book) in itemList" :key="book.id">
       <router-link
         class="href"
         :to="{ name: 'book', params: {id: book.id, itemInfo: book.volumeInfo } }"
       >
         <result-snippet :volumeInfo="book.volumeInfo"/>
-        <!-- <div class="book-section">
-          <div class="image-section">
-            <img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title">
-          </div>
-          <div class="info-section">
-            <h2>{{ book.volumeInfo.title }}</h2>
-            <h4>Author: {{ book.volumeInfo.authors }}</h4>
-            <h4>Publisher: {{ book.volumeInfo.publisher }}</h4>
-            <h4>Click to learn more!</h4>
-          </div>
-        </div>-->
       </router-link>
     </div>
   </div>
@@ -25,13 +15,23 @@
 
 <script>
 import ResultSnippet from "@/components/ResultSnippet.vue";
+import BooklistHeader from "@/components/BooklistHeader.vue";
 export default {
   name: "DisplayResults",
   props: {
     itemList: Array
   },
   components: {
-    ResultSnippet
+    ResultSnippet,
+    BooklistHeader
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    headerTitle() {
+      return this.$route.params.id;
+    }
   }
 };
 </script>
