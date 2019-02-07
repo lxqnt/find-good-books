@@ -1,81 +1,39 @@
 <!-- Landing Page for site and space for search results--> 
 <template>
   <div>
-    <div>
-      <booklist-header
-        :side="resultsReturned"
-        :title="headerTitle"
-        subtitle="Search for Books on Any Subject"
-      />
-      <div v-if="!resultsReturned" class="section-search">
-        <div class="search">
-          <input v-model="queryValue" placeholder="Find A Good Book" class="search-input">
-          <div>
-            <router-link class="href" :to="{ name: 'search', params: {id: getQuery} }">
-              <button>Search</button>
-            </router-link>
-          </div>
+    <div class="section-search">
+      <div class="search">
+        <input v-model="queryValue" placeholder="Good Book" class="search-input">
+        <div>
+          <router-link class="href" :to="{ name: 'search', params: {id: getQuery} }">
+            <button>Search</button>
+          </router-link>
         </div>
       </div>
-      <div v-if="resultsReturned"></div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
-import BooklistHeader from "./BooklistHeader.vue";
-
 export default {
   name: "BookSearch",
-  components: {
-    BooklistHeader
-  },
   data() {
     return {
-      headerTitle: "The Good Booklist",
-      searchResults: {},
-      queryValue: "",
-      //boolean to change view
-      resultsReturned: false
+      queryValue: ""
     };
   },
   computed: {
     getQuery() {
       return encodeURIComponent(this.queryValue);
     }
-  },
-  methods: {
-    // Get request for search results
-    getsomeQuery: function() {
-      if (this.queryValue.length > 0) {
-        // empty string check
-        const query = encodeURIComponent(this.queryValue);
-        const apiURL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
-        axios({
-          async: true,
-          url: apiURL,
-          method: "GET",
-          headers: {
-            //  Test if authorization needed Authorization: `Bearer ${this.oAuthToken}`,
-          }
-        }).then(response => {
-          this.searchResults = response.data;
-          console.log(response.data); //TODO: clean up console.logs and add response code check
-          this.resultsReturned = true;
-          this.headerTitle =
-            "Here Are Some " + this.queryValue.toUpperCase() + " Books";
-        });
-      }
-    }
   }
 };
 </script>
 
 <style>
-.top {
+/* .top {
   height: 40%;
-}
+} */
 .section-search {
   margin-top: 5em;
 }
