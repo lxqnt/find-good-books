@@ -4,7 +4,9 @@
 <script>
 export default {
   name: "ResultSnippet",
-  props: {}
+  props: {
+    volumeInfo: null
+  }
 };
 </script>
 

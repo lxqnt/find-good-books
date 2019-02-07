@@ -34,11 +34,14 @@ describe("ResultSnippet.vue", () => {
   it("renders a vue instance", () => {
     expect(shallowMount(ResultSnippet).isVueInstance()).to.equal(true);
   });
+
   it("accepts a single book object ", () => {
     const bookInfo = mockdata.items[0].volumeInfo;
-    const wrapper = shallowMount(DisplayResults, {
-      propsData: { bookInfo }
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
     });
-    assert.equal(wrapper.vm.volumeInfo, bookInfo, "Does not exist");
+    assert.equal(wrapper.vm.volumeInfo, bookInfo);
   });
 });
