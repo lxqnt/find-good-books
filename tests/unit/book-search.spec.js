@@ -77,12 +77,12 @@ describe("ResultSnippet.vue", () => {
   });
 
   it("displays multiple authors", () => {
-    const bookInfo = mockdata.items[1].volumeInfo;
+    const bookInfo = mockdata.items[6].volumeInfo;
     const wrapper = shallowMount(ResultSnippet, {
       propsData: {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.text()).to.include("Douglas Adams");
+    expect(wrapper.text()).to.include("Henning Wallentowitz, Christian Amsel");
   });
 });

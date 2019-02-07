@@ -355,6 +355,7 @@
       "etag": "5Q9rQHZLwew",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/k0BvDAAAQBAJ",
       "volumeInfo": {
+        "title": "42 Faith",
         "subtitle": "The Rest of the Jackie Robinson Story",
         "authors": ["Ed Henry"],
         "publisher": "Thomas Nelson",
@@ -450,7 +451,6 @@
       "etag": "L/nBd0Ax6DU",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/h1SQNXxRdMUC",
       "volumeInfo": {
-        "title": "42 Seconds from Broadway",
         "subtitle": "A Play in Two Acts",
         "authors": ["Louis Del Grande"],
         "publisher": "Samuel French, Inc.",
