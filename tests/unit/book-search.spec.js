@@ -28,3 +28,9 @@ describe("DisplayResults.vue", () => {
     assert.equal(wrapper.vm.itemList, itemList);
   });
 });
+
+describe("ResultSnippet.vue", () => {
+  it("renders a vue instance", () => {
+    expect(shallowMount(ResultSnippet).isVueInstance()).to.equal(true);
+  });
+});
