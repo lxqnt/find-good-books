@@ -2,7 +2,7 @@
 <template>
   <div class="book-section" v-if="volumeInfo">
     <div class="image-section">
-      <!--<img :src="book.volumeInfo.imageLinks.thumbnail" t :alt="book.volumeInfo.title"> -->
+      <img :src="getImgUrl" :alt="getTitle">
     </div>
     <div class="info-section">
       <h2>{{ getTitle }}</h2>
@@ -20,10 +20,14 @@ export default {
     volumeInfo: Object
   },
   computed: {
+    getImgUrl() {
+      return this.volumeInfo.imageLinks.thumbnail;
+    },
     getPublisher() {
       if (this.volumeInfo.publisher) {
         return "Publisher is" + this.volumeInfo.publisher;
       }
+      return "";
     },
     getTitle() {
       return this.volumeInfo.title;
@@ -43,6 +47,7 @@ export default {
         }
         return allAuthors;
       }
+      return "";
     }
   }
 };

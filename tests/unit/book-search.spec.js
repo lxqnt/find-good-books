@@ -125,8 +125,8 @@ describe("ResultSnippet.vue", () => {
         volumeInfo: bookInfo
       }
     });
-    expect(wrapper.html()).to.include(
-      '<img :src="http://books.google.com/books/content?id=KcWGokt5fsQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"'
+    expect(wrapper.html()).to.contain(
+      '<img src="http://books.google.com/books/content?id=KcWGokt5fsQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"'
     );
   });
 
