@@ -42,6 +42,17 @@ describe("ResultSnippet.vue", () => {
         volumeInfo: bookInfo
       }
     });
+    // console.log(bookInfo);
     assert.equal(wrapper.vm.volumeInfo, bookInfo);
+  });
+
+  it("displays title", () => {
+    const bookInfo = mockdata.items[0].volumeInfo;
+    const wrapper = shallowMount(ResultSnippet, {
+      propsData: {
+        volumeInfo: bookInfo
+      }
+    });
+    expect(wrapper.text()).to.include(bookInfo.title);
   });
 });
