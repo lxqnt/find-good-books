@@ -30,7 +30,7 @@ export default {
       method: "GET"
     }).then(response => {
       let searchResults = response.data;
-      console.log(response); //TODO: clean up console.logs and add response code check
+      //console.log(response); //TODO: clean up console.logs and add response code check
       this.results = searchResults;
     });
   },
