@@ -1,47 +1,489 @@
 {
   "kind": "books#volumes",
-  "totalItems": 2154,
+  "totalItems": 4114,
   "items": [
     {
       "kind": "books#volume",
-      "id": "lUA2o70Y83QC",
-      "etag": "1lfrNklsKUU",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/lUA2o70Y83QC",
+      "id": "UUDyCAAAQBAJ",
+      "etag": "lBas5NkA4iQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UUDyCAAAQBAJ",
       "volumeInfo": {
-        "title": "Animal Testing",
-        "subtitle": "Issues and Ethics",
-        "authors": ["Stephanie Watson"],
-        "publisher": "The Rosen Publishing Group",
-        "publishedDate": "2009-01-01",
-        "description": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved.",
+        "title": "Summer of '42",
+        "authors": ["Herman Raucher"],
+        "publisher": "Diversion Books",
+        "publishedDate": "2015-05-05",
+        "description": "“​SUMMER OF ‘42 is a charming and tender novel...The overall effect is one of high hilarity. Raucher is a comic-artist who is able to convey the fears and joys...of the boy and at the same time give older readers a wrench in the heart. ” —​PUBLISHERS WEEKLY A classic coming-of-age story and international bestseller. Captivating and evocative, Herman Raucher’s semi-autobiographical tale has been made into a record-breaking Academy Award nominated hit movie, adapted for the stage, and enchanted readers for generations. In the summer of 1942, Hermie is fifteen. He is wildly obsessed with sex, and passionately in love with an \"older woman\" of twenty-two, whose husband is overseas and at war. Ambling through Nantucket Island with his friends, Hermie’s indelible narration chronicles his frantic efforts to become a man, especially one worthy of the lovely Dorothy, as well as his glorious and heartbreaking initiation into sex.",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9781435850224"
+            "identifier": "9781626818064"
           },
           {
             "type": "ISBN_10",
-            "identifier": "143585022X"
+            "identifier": "1626818061"
           }
         ],
         "readingModes": {
           "text": true,
           "image": true
         },
-        "pageCount": 64,
         "printType": "BOOK",
-        "categories": ["Juvenile Nonfiction"],
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 5,
         "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=lUA2o70Y83QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=lUA2o70Y83QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=UUDyCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UUDyCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=lUA2o70Y83QC&printsec=frontcover&dq=testing+in+animals&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=lUA2o70Y83QC&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=lUA2o70Y83QC"
+        "previewLink": "http://books.google.com/books?id=UUDyCAAAQBAJ&printsec=frontcover&dq=42&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=UUDyCAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-UUDyCAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 4.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=UUDyCAAAQBAJ&rdid=book-UUDyCAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Summer_of_42-sample-epub.acsm?id=UUDyCAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Summer_of_42-sample-pdf.acsm?id=UUDyCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UUDyCAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Raucher is a comic-artist who is able to convey the fears and joys...of the boy and at the same time give older readers a wrench in the heart. ” —​PUBLISHERS WEEKLY A classic coming-of-age story and international bestseller."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KcWGokt5fsQC",
+      "etag": "m0We/czrZqk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KcWGokt5fsQC",
+      "volumeInfo": {
+        "title": "Life, the Universe and Everything",
+        "authors": ["Douglas Adams"],
+        "publisher": "Del Rey",
+        "publishedDate": "2008-12-24",
+        "description": "“Wild satire . . . The feckless protagonist, Arthur Dent, is reminiscent of Vonnegut heroes.”—Chicago Tribune The unhappy inhabitants of planet Krikkit are sick of looking at the night sky above their heads—so they plan to destroy it. The universe, that is. Now only five individuals stand between the killer robots of Krikkit and their goal oftotal annihilation. They are Arthur Dent, a mild-mannered space and time traveler who tries to learn how to fly by throwing himself at the ground and missing; Ford Prefect, his best friend, who decides to go insane to see if he likes it; Slartibartfast, the indomitable vice president of the Campaign for Real Time, who travels in a ship powered by irrational behavior; Zaphod Beeblebrox, the two-headed, three-armed ex-president of the galaxy; and Trillian, the sexy space cadet who is torn between a persistent Thunder God and a very depressed Beeblebrox. How will it all end? Will it end? Only this stalwart crew knows as they try to avert “universal” Armageddon and save life as we know it—and don’t know it! “Adams is one of those rare treasures: an author who, one senses, has as much fun writing as one has reading.”—Arizona Daily Star",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307496508"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0307496503"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 1839,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.13.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KcWGokt5fsQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KcWGokt5fsQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=KcWGokt5fsQC&printsec=frontcover&dq=42&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=KcWGokt5fsQC&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-KcWGokt5fsQC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=KcWGokt5fsQC&rdid=book-KcWGokt5fsQC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Life_the_Universe_and_Everything-sample-epub.acsm?id=KcWGokt5fsQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Life_the_Universe_and_Everything-sample-pdf.acsm?id=KcWGokt5fsQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KcWGokt5fsQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "“Wild satire ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7fAvDwAAQBAJ",
+      "etag": "Fqno2HmE/os",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7fAvDwAAQBAJ",
+      "volumeInfo": {
+        "title": "42 Is Not Just a Number",
+        "subtitle": "The Odyssey of Jackie Robinson, American Hero",
+        "authors": ["Doreen Rappaport"],
+        "publisher": "Candlewick Press",
+        "publishedDate": "2017-09-05",
+        "description": "Baseball, basketball, football — no matter the game, Jackie Robinson excelled. His talents would have easily landed another man a career in pro sports, but in America in the 1930s and ’40s, such opportunities were closed to athletes like Jackie for one reason: his skin was the wrong color. Settling for playing baseball in the Negro Leagues, Jackie chafed at the inability to prove himself where it mattered most: the major leagues. Then in 1946, Branch Rickey, manager of the Brooklyn Dodgers, decided he was going to break the “rules” of segregation: he recruited Jackie Robinson. Fiercely determined, Jackie faced cruel and sometimes violent hatred and discrimination, but he proved himself again and again, exhibiting courage, restraint, and a phenomenal ability to play the game. In this compelling biography, award-winning author Doreen Rappaport chronicles the extraordinary life of Jackie Robinson and how his achievements won over — and changed — a segregated nation.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780763697150"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "076369715X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 128,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "averageRating": 4,
+        "ratingsCount": 5,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7fAvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7fAvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=7fAvDwAAQBAJ&printsec=frontcover&dq=42&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=7fAvDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-7fAvDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 15.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.48,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=7fAvDwAAQBAJ&rdid=book-7fAvDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 15990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7480000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/42_Is_Not_Just_a_Number-sample-epub.acsm?id=7fAvDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7fAvDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this compelling biography, award-winning author Doreen Rappaport chronicles the extraordinary life of Jackie Robinson and how his achievements won over — and changed — a segregated nation."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "G6HBbeSZVSUC",
+      "etag": "aD9QI8gI10M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/G6HBbeSZVSUC",
+      "volumeInfo": {
+        "title": "The New Machine Directive 2006/42/EC",
+        "publisher": "Consultants Europe bv",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789076245171"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9076245177"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=G6HBbeSZVSUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=G6HBbeSZVSUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=G6HBbeSZVSUC&pg=PP1&dq=42&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=G6HBbeSZVSUC&dq=42&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_New_Machine_Directive_2006_42_EC.html?hl=&id=G6HBbeSZVSUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=G6HBbeSZVSUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The New Machinery directive 2006/<b>42</b>/EC THE NEW MACHINE DIRECTIVE <br>\n2006/<b>42</b>/EC Practical Guide 1st edition CE. Front Cover."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "k0BvDAAAQBAJ",
+      "etag": "5Q9rQHZLwew",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/k0BvDAAAQBAJ",
+      "volumeInfo": {
+        "title": "42 Faith",
+        "subtitle": "The Rest of the Jackie Robinson Story",
+        "authors": ["Ed Henry"],
+        "publisher": "Thomas Nelson",
+        "publishedDate": "2017-04-04",
+        "description": "Jackie Robinson, Branch Rickey, and the hidden hand of God that changed history Journalist and baseball lover Ed Henry reveals for the first time the backstory of faith that guided Jackie Robinson into not only the baseball record books but the annals of civil rights advancement as well. Through recently discovered sermons, interviews with Robinson’s family and friends, and even an unpublished book by the player himself, Henry details a side of Jackie’s humanity that few have taken the time to see. Branch Rickey, the famed owner who risked it all by signing Jackie to his first contract, is also shown as a complex individual who wanted nothing more than to make his God-fearing mother proud of him. Few know the level at which Rickey struggled with his decision, only moving forward after a private meeting with a minister he’d just met. It turns out Rickey was not as certain about signing Robinson as historians have always assumed. With many baseball stories to enthrall even the most ardent enthusiast, 42 Faith also digs deep into why Jackie was the man he was and what both drove him and challenged him after his retirement. From his early years before baseball, to his time with Rickey and the Dodgers, to his failing health in his final years, we see a man of faith that few have recognized. This book will add a whole new dimension to Robinson’s already awe-inspiring legacy. Yes, Jackie and Branch are both still heroes long after their deaths. Now, we learn more fully than ever before, there was an assist from God too.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780718089054"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0718089057"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=k0BvDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=k0BvDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=k0BvDAAAQBAJ&printsec=frontcover&dq=42&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=k0BvDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-k0BvDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 1.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=k0BvDAAAQBAJ&rdid=book-k0BvDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/42_Faith-sample-epub.acsm?id=k0BvDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=k0BvDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will add a whole new dimension to Robinson’s already awe-inspiring legacy. Yes, Jackie and Branch are both still heroes long after their deaths. Now, we learn more fully than ever before, there was an assist from God too."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "h1SQNXxRdMUC",
+      "etag": "L/nBd0Ax6DU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/h1SQNXxRdMUC",
+      "volumeInfo": {
+        "title": "42 Seconds from Broadway",
+        "subtitle": "A Play in Two Acts",
+        "authors": ["Louis Del Grande"],
+        "publisher": "Samuel French, Inc.",
+        "publishedDate": "1973",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0573609071"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780573609077"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 76,
+        "printType": "BOOK",
+        "categories": ["Canadian drama"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.3.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=h1SQNXxRdMUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=h1SQNXxRdMUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=h1SQNXxRdMUC&pg=PA3&dq=42&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=h1SQNXxRdMUC&dq=42&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/42_Seconds_from_Broadway.html?hl=&id=h1SQNXxRdMUC"
       },
       "saleInfo": {
         "country": "US",
@@ -56,59 +498,62 @@
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Animal_Testing-sample-epub.acsm?id=lUA2o70Y83QC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/42_Seconds_from_Broadway-sample-epub.acsm?id=h1SQNXxRdMUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=lUA2o70Y83QC&hl=&printsec=frontcover&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=h1SQNXxRdMUC&hl=&printsec=frontcover&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved."
+        "textSnippet": "<b>42</b> SECONDS FROM BROADWAY premiered at the Playhouse Theatre, under <br>\nthe direction of Arthur Cantor, Joel W. Schenker, and Harry E. Gould, Jr. It was <br>\ndirected by Arthur Storch, with a cast as follows: Mr. Green Martin Garner Robin&nbsp;..."
       }
     },
     {
       "kind": "books#volume",
-      "id": "9f9ymYPmPeUC",
-      "etag": "c+sTyOBq57Q",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/9f9ymYPmPeUC",
+      "id": "NG3COypCTlUC",
+      "etag": "uN3TTONlp20",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NG3COypCTlUC",
       "volumeInfo": {
-        "title": "Animal Testing",
-        "subtitle": "The Animal Rights Debate",
-        "authors": ["Chris Hayhurst"],
-        "publisher": "The Rosen Publishing Group",
-        "publishedDate": "2000",
-        "description": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved.",
+        "title": "42 V-PowerNets",
+        "authors": ["Henning Wallentowitz", "Christian Amsel"],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2003-07-14",
+        "description": "The performance of automotive electrical equipment requires new technologies. 42-volt electrical systems will be introduced within 5 years, but still the safety and reliability of such systems need to be tested and further improved. The book examines several aspects of testing and safety of these new components and systems, specifically dealing with safety and testing of powerlines and components, fault diagnosis and precautions to avoid systems failure. The contributors have expertise in industrial development of such systems and discussed their approaches at a workshop held in Aachen, Germany, where leading European suppliers addressed problems and solutions. The results of the workshop are presented in this book.",
         "industryIdentifiers": [
           {
             "type": "ISBN_10",
-            "identifier": "0823932133"
+            "identifier": "3540443460"
           },
           {
             "type": "ISBN_13",
-            "identifier": "9780823932139"
+            "identifier": "9783540443469"
           }
         ],
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 64,
+        "pageCount": 209,
         "printType": "BOOK",
-        "categories": ["Juvenile Nonfiction"],
+        "categories": ["Technology & Engineering"],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.0.1.0.preview.1",
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=9f9ymYPmPeUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=9f9ymYPmPeUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=NG3COypCTlUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NG3COypCTlUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=9f9ymYPmPeUC&printsec=frontcover&dq=testing+in+animals&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=9f9ymYPmPeUC&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=9f9ymYPmPeUC"
+        "previewLink": "http://books.google.com/books?id=NG3COypCTlUC&printsec=frontcover&dq=42&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=NG3COypCTlUC&dq=42&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/42_V_PowerNets.html?hl=&id=NG3COypCTlUC"
       },
       "saleInfo": {
         "country": "US",
@@ -120,6 +565,65 @@
         "viewability": "PARTIAL",
         "embeddable": true,
         "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/42_V_PowerNets-sample-pdf.acsm?id=NG3COypCTlUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NG3COypCTlUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The results of the workshop are presented in this book. The efficiency of today&#39;s automobile PowerNets is limited and widely exhausted and the introduction of new systems is becoming more and more difficult."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "irc1AQAAMAAJ",
+      "etag": "U2pVit/teWM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/irc1AQAAMAAJ",
+      "volumeInfo": {
+        "title": "I-295/I-76/Route 42 Direct Connection Project",
+        "subtitle": "Environmental Impact Statement",
+        "publishedDate": "2008",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NWU:35556034513531"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=irc1AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=irc1AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=irc1AQAAMAAJ&printsec=frontcover&dq=42&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=irc1AQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-irc1AQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=irc1AQAAMAAJ&rdid=book-irc1AQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": false
@@ -127,85 +631,80 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=9f9ymYPmPeUC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
+        "webReaderLink": "http://play.google.com/books/reader?id=irc1AQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Discusses the pros and cons of testing products intended for human use on animals, as well as the legal and ethical issues involved."
       }
     },
     {
       "kind": "books#volume",
-      "id": "vf2PSBFD2tMC",
-      "etag": "RJ2j+u59/vk",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/vf2PSBFD2tMC",
+      "id": "sg0JBAAAQBAJ",
+      "etag": "/FWSig9L8Wo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sg0JBAAAQBAJ",
       "volumeInfo": {
-        "title": "Science, Medicine, and Animals",
-        "subtitle": "A Circle of Discovery: Teacher's Guide",
+        "title": "Title 42 Public Health Parts 430 to 481 (Revised as of October 1, 2013)",
+        "subtitle": "42-CFR-Vol-4",
         "authors": [
-          "National Research Council",
-          "Division on Earth and Life Studies",
-          "Institute for Laboratory Animal Research"
+          "Office of The Federal Register, Enhanced by IntraWEB, LLC"
         ],
-        "publisher": "National Academies Press",
-        "publishedDate": "2006-01-19",
-        "description": "Science, Medicine, and Animals explains the role that animals play in biomedical research and the ways in which scientists, governments, and citizens have tried to balance the experimental use of animals with a concern for all living creatures. An accompanying Teacherâ€™s Guide is available to help teachers of middle and high school students use Science, Medicine, and Animals in the classroom. As students examine the issues in Science, Medicine, and Animals, they will gain a greater understanding of the goals of biomedical research and the real-world practice of the scientific method in general. Science, Medicine, and Animals and the Teacherâ€™s Guide were written by the Institute for Laboratory Animal Research and published by the National Research Council of the National Academies. The report was reviewed by a committee made up of experts and scholars with diverse perspectives, including members of the U.S. Department of Agriculture, National Institutes of Health, the Humane Society of the United States, and the American Society for the Prevention of Cruelty to Animals. The Teacherâ€™s Guide was reviewed by members of the National Academiesâ€™ Teacher Associates Network. Science, Medicine, and Animals is recommended by the National Science Teacherâ€™s Association NSTA Recommends.",
+        "publisher": "IntraWEB, LLC and Claitor's Law  Publishing",
+        "publishedDate": "2013-10-01",
+        "description": "42 CFR Public Health",
         "industryIdentifiers": [
           {
-            "type": "ISBN_10",
-            "identifier": "0309181992"
+            "type": "ISBN_13",
+            "identifier": "9780160921087"
           },
           {
-            "type": "ISBN_13",
-            "identifier": "9780309181990"
+            "type": "ISBN_10",
+            "identifier": "0160921082"
           }
         ],
         "readingModes": {
-          "text": true,
-          "image": false
+          "text": false,
+          "image": true
         },
-        "pageCount": 23,
+        "pageCount": 664,
         "printType": "BOOK",
-        "categories": ["Science"],
+        "categories": ["Law"],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.5.7.0.preview.2",
+        "contentVersion": "preview-1.0.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=vf2PSBFD2tMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=vf2PSBFD2tMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=sg0JBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=sg0JBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=vf2PSBFD2tMC&printsec=frontcover&dq=testing+in+animals&hl=&cd=3&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=vf2PSBFD2tMC&source=gbs_api",
-        "canonicalVolumeLink": "https://market.android.com/details?id=book-vf2PSBFD2tMC"
+        "previewLink": "http://books.google.com/books?id=sg0JBAAAQBAJ&pg=PA638&dq=42&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=sg0JBAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-sg0JBAAAQBAJ"
       },
       "saleInfo": {
         "country": "US",
         "saleability": "FOR_SALE",
         "isEbook": true,
         "listPrice": {
-          "amount": 16.99,
+          "amount": 20,
           "currencyCode": "USD"
         },
         "retailPrice": {
           "amount": 9.99,
           "currencyCode": "USD"
         },
-        "buyLink": "https://play.google.com/store/books/details?id=vf2PSBFD2tMC&rdid=book-vf2PSBFD2tMC&rdot=1&source=gbs_api",
+        "buyLink": "https://play.google.com/store/books/details?id=sg0JBAAAQBAJ&rdid=book-sg0JBAAAQBAJ&rdot=1&source=gbs_api",
         "offers": [
           {
             "finskyOfferType": 1,
             "listPrice": {
-              "amountInMicros": 1.699e7,
+              "amountInMicros": 20000000,
               "currencyCode": "USD"
             },
             "retailPrice": {
-              "amountInMicros": 9990000.0,
+              "amountInMicros": 9990000,
               "currencyCode": "USD"
             },
             "giftable": true
@@ -215,159 +714,47 @@
       "accessInfo": {
         "country": "US",
         "viewability": "PARTIAL",
-        "embeddable": false,
+        "embeddable": true,
         "publicDomain": false,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
           "isAvailable": true
         },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=vf2PSBFD2tMC&hl=&printsec=frontcover&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=sg0JBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "The Teacherâ€™s Guide was reviewed by members of the National Academiesâ€™ Teacher Associates Network. Science, Medicine, and Animals is recommended by the National Science Teacherâ€™s Association NSTA Recommends."
+        "textSnippet": "<b>42</b>-CFR-Vol-4 Office of The Federal Register, Enhanced by IntraWEB, LLC. <br>\nAgency Animal and Plant Health Inspection Service Appalachian Regional <br>\nCommission Architectural and Transportation Barriers Compliance Board Arctic <br>\nResearch&nbsp;..."
       }
     },
     {
       "kind": "books#volume",
-      "id": "d3UoDwAAQBAJ",
-      "etag": "GRP8Padpe+M",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/d3UoDwAAQBAJ",
+      "id": "8g0ezljBJ5kC",
+      "etag": "Fe7aMuIe+RQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8g0ezljBJ5kC",
       "volumeInfo": {
-        "title": "Alternatives To Animal Testing",
-        "authors": ["R E Hester", "R M Harrison"],
-        "publisher": "Royal Society of Chemistry",
-        "publishedDate": "2007-10-31",
-        "description": "Animal experimentation has long been a controversial issue with impassioned arguments on both sides of the debate. Increasingly it has become more expedient and feasible to develop new methods that avoid the use of animals. There is agreement on both sides that reduction and refinement of experiments on animals should be an important goal for the industries involved. Alternatives to Animal Testing, written by leading experts in the field, discusses the issues involved and approaches that can be taken. Topics include; the safety evaluation of chemicals, international validation and barriers to the validation of alternative tests, in vitro testing for endocrine disruptors, intelligent approaches to safety evaluation of chemicals, alternative tests and the regulatory framework. The book provides an up-to-date discussion of the current state of development of alternatives to animal testing and is ideal for professionals and academics in the field. It would also be of use for graduate students wishing to pursue a career in the pharmaceutical and cosmetic industries.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781847552457"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1847552455"
-          }
-        ],
+        "title": "United States Code, 2000 Edition, V. 24, Title 42, The Public Health and Welfare, Sections 7701-End",
+        "publisher": "Government Printing Office",
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 136,
         "printType": "BOOK",
-        "categories": ["Medical"],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
         "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=d3UoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=d3UoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=8g0ezljBJ5kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8g0ezljBJ5kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=d3UoDwAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=4&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=d3UoDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://market.android.com/details?id=book-d3UoDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 84.0,
-          "currencyCode": "USD"
-        },
-        "retailPrice": {
-          "amount": 67.2,
-          "currencyCode": "USD"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=d3UoDwAAQBAJ&rdid=book-d3UoDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 8.4e7,
-              "currencyCode": "USD"
-            },
-            "retailPrice": {
-              "amountInMicros": 6.72e7,
-              "currencyCode": "USD"
-            },
-            "giftable": true
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Alternatives_To_Animal_Testing-sample-pdf.acsm?id=d3UoDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=d3UoDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "The book provides an up-to-date discussion of the current state of development of alternatives to animal testing and is ideal for professionals and academics in the field."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "jQjTAQAAQBAJ",
-      "etag": "HaC5sK48/Jc",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/jQjTAQAAQBAJ",
-      "volumeInfo": {
-        "title": "Reducing, Refining and Replacing the Use of Animals in Toxicity Testing",
-        "authors": ["Dave Allen", "Mike D. Waters"],
-        "publisher": "Royal Society of Chemistry",
-        "publishedDate": "2013",
-        "description": "Toxicity testing is used to assess the safety or hazards presented by substances such as industrial chemicals, consumer products, and pharmaceuticals. At present, many methods involve laboratory animals. Alternative procedures, some involving human cell-based technologies, are now being developed which reduce, refine, or replace animal usage and minimize the pain and distress caused. These new tests must protect public health and the environment at least as well as currently accepted methods. This book describes the ever-expanding \"toolbox\" of methods available to assess toxicity. Such techniques often result from our growing understanding of the biochemical and cellular pathways that mediate toxicity mechanisms. This permits evaluations of information generated from several sources to generate a \"weight of evidence.\" By combining in silico, in vitro, and ex vivo methods with technologies that rely on biochemical- and cell-based in vitro assays, toxicologists are developing mechanistically based alternatives to live animal experimentation. This text also explores the complexities associated with adequate validation, and the assessment of test reliability and relevance. It provides an essential reference source for postgraduates, academics and industrialists working in this rapidly changing area.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781849736527"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1849736529"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 369,
-        "printType": "BOOK",
-        "categories": ["Medical"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=jQjTAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=jQjTAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=jQjTAQAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=5&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=jQjTAQAAQBAJ&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Reducing_Refining_and_Replacing_the_Use.html?hl=&id=jQjTAQAAQBAJ"
+        "previewLink": "http://books.google.com/books?id=8g0ezljBJ5kC&pg=PA272&dq=42&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=8g0ezljBJ5kC&dq=42&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/United_States_Code_2000_Edition_V_24_Tit.html?hl=&id=8g0ezljBJ5kC"
       },
       "saleInfo": {
         "country": "US",
@@ -386,410 +773,12 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=jQjTAQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=8g0ezljBJ5kC&hl=&printsec=frontcover&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "Toxicology Resarch, RSC Drug Discovery Series 5. This text will explore the complexities associated with adequate validation, and the assessment of different test methods&#39; reliability and relevance."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "eUTmBQAAQBAJ",
-      "etag": "SWh7I7AloRQ",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/eUTmBQAAQBAJ",
-      "volumeInfo": {
-        "title": "Animal Testing",
-        "subtitle": "Life-Saving Research Vs. Animal Welfare",
-        "authors": ["Lois Sepahban"],
-        "publisher": "Capstone",
-        "publishedDate": "2015",
-        "description": "Examines both sides of the issue of animal experimentation, discussing the practice's historical benefits to science and the ethical concerns of animal cruelty.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780756549961"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0756549965"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 30,
-        "printType": "BOOK",
-        "categories": ["Juvenile Nonfiction"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=eUTmBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=eUTmBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=eUTmBQAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=6&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=eUTmBQAAQBAJ&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing.html?hl=&id=eUTmBQAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=eUTmBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Examines both sides of the issue of animal experimentation, discussing the practice&#39;s historical benefits to science and the ethical concerns of animal cruelty."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "kD-cXSnF0m0C",
-      "etag": "m1ZXgMioemM",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/kD-cXSnF0m0C",
-      "volumeInfo": {
-        "title": "Use of Laboratory Animals in Biomedical and Behavioral Research",
-        "authors": [
-          "National Research Council",
-          "Institute of Medicine",
-          "Institute for Laboratory Animal Research",
-          "Commission on Life Sciences",
-          "Committee on the Use of Laboratory Animals in Biomedical and Behavioral Research"
-        ],
-        "publisher": "National Academies Press",
-        "publishedDate": "1988-02-01",
-        "description": "Scientific experiments using animals have contributed significantly to the improvement of human health. Animal experiments were crucial to the conquest of polio, for example, and they will undoubtedly be one of the keystones in AIDS research. However, some persons believe that the cost to the animals is often high. Authored by a committee of experts from various fields, this book discusses the benefits that have resulted from animal research, the scope of animal research today, the concerns of advocates of animal welfare, and the prospects for finding alternatives to animal use. The authors conclude with specific recommendations for more consistent government action.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780309038393"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0309038391"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 112,
-        "printType": "BOOK",
-        "categories": ["Science"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.4.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=kD-cXSnF0m0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=kD-cXSnF0m0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=kD-cXSnF0m0C&printsec=frontcover&dq=testing+in+animals&hl=&cd=7&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=kD-cXSnF0m0C&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Use_of_Laboratory_Animals_in_Biomedical.html?hl=&id=kD-cXSnF0m0C"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=kD-cXSnF0m0C&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Authored by a committee of experts from various fields, this book discusses the benefits that have resulted from animal research, the scope of animal research today, the concerns of advocates of animal welfare, and the prospects for finding ..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "lYU0DwAAQBAJ",
-      "etag": "n2kQKDCotgo",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/lYU0DwAAQBAJ",
-      "volumeInfo": {
-        "title": "Management of Animal Care and Use Programs in Research, Education, and Testing, Second Edition",
-        "authors": [
-          "Robert H. Weichbrod",
-          "Gail A. (Heidbrink) Thompson",
-          "John N. Norton"
-        ],
-        "publisher": "CRC Press",
-        "publishedDate": "2017-09-07",
-        "description": "Biomedical research using animals requires administrators and managers who are knowledgeable and highly skilled. They must adapt to the complexity of rapidly-changing technologies, balance research goals with a thorough understanding of regulatory requirements and guidelines, and know how to work with a multi-generational, multi-cultural workforce. Management of Animal Care and Use Programs in Research, Education, and Testing, Second Edition is the extensively expanded revision of the popular Management of Laboratory Animal Care and Use Programs book published earlier this century. Following in the footsteps of the first edition, this revision serves as a first line management resource, providing for strong advocacy for advancing quality animal welfare and science worldwide, and continues as a valuable seminal reference for those engaged in all types of programs involving animal care and use. It has more than doubled the number of chapters in the original volume to present a more comprehensive overview of the current breadth and depth of the field with applicability to an international audience. Readers are provided with the latest information and resource and reference material from authors who are noted experts in their field. Co-publishers on the second edition are: ACLAM (American College of Laboratory Animal Medicine); ECLAM (European College of Laboratory Animal Medicine); IACLAM (International Colleges of Laboratory Animal Medicine); JCLAM (Japanese College of Laboratory Animal Medicine); KCLAM (Korean College of Laboratory Animal Medicine); CALAS (Canadian Association of Laboratory Animal Medicine); LAMA (Laboratory Animal Management Association); and IAT (Institute of Animal Technology).",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781351648226"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1351648225"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 872,
-        "printType": "BOOK",
-        "categories": ["Medical"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=lYU0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=lYU0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=lYU0DwAAQBAJ&printsec=frontcover&dq=testing+in+animals&hl=&cd=8&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=lYU0DwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://market.android.com/details?id=book-lYU0DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 99.95,
-          "currencyCode": "USD"
-        },
-        "retailPrice": {
-          "amount": 79.96,
-          "currencyCode": "USD"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=lYU0DwAAQBAJ&rdid=book-lYU0DwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 9.995e7,
-              "currencyCode": "USD"
-            },
-            "retailPrice": {
-              "amountInMicros": 7.996e7,
-              "currencyCode": "USD"
-            },
-            "giftable": true
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Management_of_Animal_Care_and_Use_Progra-sample-epub.acsm?id=lYU0DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Management_of_Animal_Care_and_Use_Progra-sample-pdf.acsm?id=lYU0DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=lYU0DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Co-publishers on the second edition are: ACLAM (American College of Laboratory Animal Medicine); ECLAM (European College of Laboratory Animal Medicine); IACLAM (International Colleges of Laboratory Animal Medicine); JCLAM (Japanese College ..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "SkdiQgAACAAJ",
-      "etag": "k37TubvwygI",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/SkdiQgAACAAJ",
-      "volumeInfo": {
-        "title": "Animal Testing and Consumer Products",
-        "authors": ["Heidi J. Welsh"],
-        "publisher": "Investor Responsibility",
-        "publishedDate": "1990",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0931035392"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780931035395"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 167,
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=SkdiQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=SkdiQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=SkdiQgAACAAJ&dq=testing+in+animals&hl=&cd=9&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=SkdiQgAACAAJ&dq=testing+in+animals&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Animal_Testing_and_Consumer_Products.html?hl=&id=SkdiQgAACAAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=SkdiQgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "ZiAXWfQNKIMC",
-      "etag": "MvALKYrK/eY",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZiAXWfQNKIMC",
-      "volumeInfo": {
-        "title": "Alternatives to Animal Testing",
-        "subtitle": "New Ways in the Biomedical Sciences, Trends and Progress",
-        "authors": ["Christoph A. Reinhardt"],
-        "publisher": "John Wiley & Sons",
-        "publishedDate": "2008-11-20",
-        "description": "Opinion leaders in science and politics examine findings and legislation in alternatives to animal testing! Refine, reduce, replace - These are the three demands that scientists have placed upon themselves in their search for alternatives to animal testing. Indeed much interdisciplinary research is being carried on today, and new fields have emerged, such as in-vitro toxicology. The three R's call for new scientific insights. Moreover, validation and acceptance strategies have to be adapted, a process of much ongoing interest and vital concern to the pharmaceutical and cosmetic industries. Researchers need to know exactly what has been achieved and accepted in alternatives to animal testing in science and politics. In this book they have the opportunity to benefit from the knowledge and expertise of leading researchers and influential representatives of national and international regulatory authorities.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9783527616046"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "3527616047"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 200,
-        "printType": "BOOK",
-        "categories": ["Science"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.5.0.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ZiAXWfQNKIMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ZiAXWfQNKIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=ZiAXWfQNKIMC&printsec=frontcover&dq=testing+in+animals&hl=&cd=10&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=ZiAXWfQNKIMC&source=gbs_api",
-        "canonicalVolumeLink": "https://market.android.com/details?id=book-ZiAXWfQNKIMC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 132.99,
-          "currencyCode": "USD"
-        },
-        "retailPrice": {
-          "amount": 106.39,
-          "currencyCode": "USD"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=ZiAXWfQNKIMC&rdid=book-ZiAXWfQNKIMC&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1.3299e8,
-              "currencyCode": "USD"
-            },
-            "retailPrice": {
-              "amountInMicros": 1.0639e8,
-              "currencyCode": "USD"
-            },
-            "giftable": true
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Alternatives_to_Animal_Testing-sample-pdf.acsm?id=ZiAXWfQNKIMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=ZiAXWfQNKIMC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Refine, reduce, replace - These are the three demands that scientists have placed upon themselves in their search for alternatives to animal testing."
+        "textSnippet": "(2) Subject to subsection (a) of this Section, the functions vested in the President <br>\nby Section 109 of the Act [<b>42</b> U.S.C. 9609]. relating to violations of Section 122 of <br>\nthe Act, are delegated to the heads of Executive departments and agencies, with<br>\n&nbsp;..."
       }
     }
   ]
