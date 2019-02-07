@@ -12,7 +12,7 @@
           </div>
           <div class="info-section">
             <h2>{{ book.volumeInfo.title }}</h2>
-            <h4>Author: {{ book.volumeInfo.authors[0] }}</h4>
+            <h4>Author: {{ book.volumeInfo.authors }}</h4>
             <h4>Publisher: {{ book.volumeInfo.publisher }}</h4>
             <h4>Click to learn more!</h4>
           </div>
