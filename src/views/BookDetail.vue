@@ -1,7 +1,8 @@
 <template>
   <div>
     <booklist-header :side="false" title="The Good Booklist"/>
-    <result-detail :volumeInfo="results.volumeInfo"/>
+    <result-detail v-if="loaded" :volumeInfo="results.volumeInfo"/>
+    <h3 v-if="!loaded">... searching through the stacks ...</h3>
   </div>
 </template>
 
@@ -27,13 +28,15 @@ export default {
       let searchResults = response.data;
       //console.log(response); //TODO: clean up console.logs and add response code check
       this.results = searchResults;
+      this.loaded = true;
     });
   },
   data() {
     return {
       results: {
         volumeInfo: {}
-      }
+      },
+      loaded: false
     };
   },
   computed: {

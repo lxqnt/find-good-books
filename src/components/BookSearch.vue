@@ -5,9 +5,14 @@
       <div class="search">
         <input v-model="queryValue" placeholder="Good Book" class="search-input">
         <div>
-          <router-link class="href" :to="{ name: 'search', params: {id: getQuery} }">
+          <router-link
+            @click.native="checkEmpty"
+            class="href"
+            :to="{ name: 'search', params: {id: getQuery} }"
+          >
             <button>Search</button>
           </router-link>
+          <p v-if="empty">Please add your search term</p>
         </div>
       </div>
     </div>
@@ -19,12 +24,23 @@ export default {
   name: "BookSearch",
   data() {
     return {
-      queryValue: ""
+      queryValue: "",
+      empty: false
     };
+  },
+  methods: {
+    checkEmpty() {
+      if (this.isEmpty) {
+        this.empty = true;
+      }
+    }
   },
   computed: {
     getQuery() {
       return encodeURIComponent(this.queryValue);
+    },
+    isEmpty() {
+      return this.queryValue.length < 1;
     }
   }
 };
