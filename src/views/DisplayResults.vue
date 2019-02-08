@@ -54,11 +54,5 @@ export default {
 };
 </script>
 
-<style>
-.href {
-  text-decoration: none;
-}
-.href :link {
-  color: none;
-}
+<style src="@/assets/styles/base.css">
 </style>

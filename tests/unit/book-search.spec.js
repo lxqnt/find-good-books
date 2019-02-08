@@ -2,7 +2,7 @@ import { expect, assert } from "chai";
 import VueRouter from "vue-router";
 import { shallowMount, createLocalVue } from "@vue/test-utils";
 import BookSearch from "@/components/BookSearch.vue";
-import DisplayResults from "@/views/DisplayResults.vue";
+//import DisplayResults from "@/views/DisplayResults.vue";
 import mockdata from "../json/data.json";
 import ResultSnippet from "@/components/ResultSnippet.vue";
 import singleBook from "../json/singlebook.json";
@@ -28,36 +28,36 @@ describe("BookSearch.vue", () => {
   });
 });
 
-/* Display Results tests - failing because router issue 
+// //Display Results tests - failing because router issue 
 
-describe("DisplayResults.vue", () => {
-  const localVue = createLocalVue();
-  localVue.use(VueRouter);
+// describe("DisplayResults.vue", () => {
+//   const localVue = createLocalVue();
+//   localVue.use(VueRouter);
 
-  //To be used for testing $route
-  const $route = {
-    path: "search/42",
-    params: {
-      id: "some%20winners"
-    }
-  };
+//   //To be used for testing $route
+//   const $route = {
+//     path: "search/42",
+//     params: {
+//       id: "some%20winners"
+//     }
+//   };
 
-  it("renders a vue instance", () => {
-    expect(shallowMount(DisplayResults, { localVue }).isVueInstance()).to.equal(
-      true
-    );
-  });
+//   it("renders a vue instance", () => {
+//     expect(shallowMount(DisplayResults, { localVue }).isVueInstance()).to.equal(
+//       true
+//     );
+//   });
 
-  it("reads route param results ", () => {
-    const wrapper = shallowMount(DisplayResults, {
-      mocks: {
-        $route
-      }
-    });
-    expect(wrapper.vm.searchTerm.to.equal("some%20winners"));
-  });
-});
-*/
+//   it("reads route param results ", () => {
+//     const wrapper = shallowMount(DisplayResults, {
+//       mocks: {
+//         $route
+//       }
+//     });
+//     expect(wrapper.vm.searchTerm.to.equal("some%20winners"));
+//   });
+// });
+
 
 /* Result Snippet Tests */
 

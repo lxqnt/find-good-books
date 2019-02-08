@@ -57,31 +57,5 @@ export default {
 };
 </script>
 
-<style>
-.book-section {
-  flex-direction: row;
-  float: right;
-  width: 60%;
-  border: 2px solid black;
-  margin: 10px;
-}
-
-.book-section .image-section {
-  float: left;
-  margin: 10px;
-}
-
-.book-section .info-section {
-  width: 50%;
-  flex-wrap: wrap;
-  float: right;
-  margin: 10px;
-  text-align: right;
-  color: black;
-}
-@media screen and (max-width: 900px) {
-  .book-section .info-section {
-    width: 80%;
-  }
-}
+<style src="@/assets/styles/snippet.css">
 </style>
