@@ -1,6 +1,6 @@
 # The Good Booklist
 
-This is a simple project exploring client side api calls with Vue JS. In this webapp, I am using the google books API to request search query information. This was an opportunity to review Vue JS, api integrations, and basic server deployment. The project is live at https://the-good-booklist.herokuapp.com.
+This is a simple project exploring client side api calls with Vue JS. In this webapp, I am using the google books API to request search query information. This was an opportunity to review Vue JS, api integrations, unit testing in vue, better use of computed properties and basic server deployment. The project is live at https://the-good-booklist.herokuapp.com.
 
 ## Basic Project setup
 
@@ -38,15 +38,19 @@ yarn run test:unit
 
 - Routing with Vue Router
 
-## Things to work on
+- testing with a chai / mocha framework
 
-- Vue Router
-  I hadn't worked with the vue router previously, but getting it set was relativly quick. However, there were a few things to improve upon.
+
+## Work in Progress
+
+- Vue Router 
+I've improved the routing and changed the basic structure of the app to allow for page refresh and back and forth movement. Any component that displays data is wrapped by a page view component that requests that data from the google API. The paramaters are passed as part of the url allowing a user can send a specific url and still see the data results. Still some more details to look int. 
   - Currently 404 errors are not being handled seperately and link back to the home page.
-  - I decided to pass in props for the book detail through routing. However this means that all the data is lost on page refresh. Alternative may have been to pass in just the book ID and do a new get request on the indivual page.
-  - I did not route a seperate path for the search results page, meaning that data is also lost on page refresh and that one can't provide a link to a search query.
 - Error Handling
-  - I did not add error handling to my query results yet. Two quick additions would be to add a case for when no results are returned on a query and check for cases when there is no query inputed.
+
+I've added some error handling and am displaying some basic guidence to the user as well. Specifically, I am checking for empty query inputs, waiting for results, and checking if individual results aren't being returned. For example, if no author, then the author field is left blank.
+  - Still in progress: 404 errors are not being handled seperately and link back to the home page.
+  
 - Server side API calls and OAuth
   - Although the documentation indicated that an api access token was required to use the API, I didn't have an issue using it without one. I would want to look into this more and potentially move my API calls to the express server side. This would also better obfuscate the credentials.
   - The API also has oAuth requirements for personal data - which could be an additional feature to explore.
@@ -54,4 +58,5 @@ yarn run test:unit
   - In my simple design, I did aim to responsive for mobile, but overall there is alot that can be done to better design the site.
   - I also want to explore more how to do animations and transitions better in VueJS and more generally.
 - Opportunties for testing
-  - During develepment I used a json file with data from the api to develop the basic frame work. Using this data as a proxy for testing might make snapshot testing and even unit testing easier to do. In the past I had tried to write test for apps that use an API, but always ran into the issue of the async data calls.
+  - I've added a number of unit tests specifically to check the data manipulation happening with the computed properties in my app. An additional benefit of this is that it pushed me to seperate my components that display data from my components that request from an api end point. It allows for easier time writing tests and error handling. 
+  - During develepment I used a json file with data from the api to develop the basic frame work. Using this data as a proxy for testing helped with unit testing.
